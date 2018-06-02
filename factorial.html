@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script>
+
+function fact(numb)
+{
+    if (numb == 0)
+      { 
+	  	return 1; 
+	  }
+	  
+    else
+      { 
+	  	return numb * fact( numb - 1 ); 
+	  }
+}
+
+console.log(fact (Number(prompt("enter number"))));
+
+</script>
+
+</body>
+</html>
