@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script>
+
+var number = prompt("enter the number(or base) whose power u want to be calculated");
+
+var power = prompt("enter power");
+
+function numPow() 
+{
+	var res = 1;
+	
+	if(power == 0)
+	{
+		console.log("result = 1");
+	}
+	
+	else
+	{
+		for (var i=0; i < power; i++)
+		{
+			var res = res * number;
+		}
+		
+		console.log("result = " + res);
+	}
+	
+}
+
+console.log("base = " + number);
+console.log("power = "+ power);
+numPow();
+
+</script>
+
+</body>
+</html>

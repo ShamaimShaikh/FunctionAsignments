@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script>
+
+var base = prompt ("enter base");
+var perp = prompt ("enter perpendicular");
+
+console.log("base : "+base);
+console.log("perp : "+ perp);
+
+function hypo()
+{
+	var hypotenuse = square(Number(base)) + square(Number(perp));
+	return hypotenuse;
+}
+
+function square (num)
+{
+	return num*num;
+	}
+	
+console.log("hypotenuse = " + hypo());
+</script>
+
+</body>
+</html>
